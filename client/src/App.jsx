@@ -56,7 +56,7 @@ function App() {
                 {loading ? 'Thinking...' : 'Send'}
             </button>
             
-        
+            
         </div>
     )
 }
