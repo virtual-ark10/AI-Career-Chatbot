@@ -45,6 +45,7 @@ system_prompt += `\n\n## Summary:\n${summaryBuffer}\n\n## LinkedIn Profile:\n${l
 system_prompt += `With this context, please chat with the user, always staying in character as ${name}.`
 
 app.post('/chat', async (req, res) => {
+    console.log("Incoming:", req.body);
     const {message, history} = req.body
 
     const messages = [{role:"system", content: system_prompt},...(history || []), {role:"user", content: message}]
