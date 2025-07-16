@@ -36,7 +36,7 @@ function App() {
 
     return(
         <div className="App">
-            <h1>Ask Hinga</h1>
+            <h1>Ask Ian Hinga</h1>
             <div className="chat-box">
                 {
                     history.map((msg,idx) => (
