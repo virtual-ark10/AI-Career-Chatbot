@@ -4,6 +4,10 @@ An AI-powered personal career assistant built with OpenAI, Vite + React, Express
 
 This chatbot simulates a professional answering questions about their background, experience, and career based on real-world data such as a LinkedIn profile and career summary.
 
+Here's a blog post with step-by-step coding instructions:
+
+🧾 https://shakersai.com/ai-tools/chatbots/ai-career-chatbot/
+
 ## ✨ Features
 
 - 💬 Conversational chatbot powered by OpenAI API
